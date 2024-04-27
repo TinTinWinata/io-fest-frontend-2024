@@ -1,0 +1,68 @@
+/* Initial CSS */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none;
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    cursor: auto;
+  }
+ }
+
+body{
+  background-color: '#000011';
+}
+
+.abs-center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #2c99e4 #000011;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000011;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2c99e4;
+  border-radius: 30px;
+  border: 0px none #ffffff;
+}

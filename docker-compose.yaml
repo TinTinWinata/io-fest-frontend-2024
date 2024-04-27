@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  jelajah-nusantara-frontend:
+    container_name: jelajah-nusantara-frontend
+    image: jelajah-nusantara-frontend:latest
+    build: .
+
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
+    name: web

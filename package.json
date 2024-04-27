@@ -1,0 +1,47 @@
+{
+  "name": "application",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "@react-query-firebase/firestore": "^1.0.0-dev.7",
+    "@tweenjs/tween.js": "^23.1.1",
+    "@types/three": "^0.161.2",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.4.0",
+    "firebase": "^9.0.1",
+    "framer-motion": "^11.0.6",
+    "jwt-decode": "^4.0.0",
+    "lottie-react": "^2.4.0",
+    "react": "^18.2.0",
+    "react-animated-cursor": "^2.11.2",
+    "react-countdown-circle-timer": "^3.2.1",
+    "react-dom": "^18.2.0",
+    "react-globe.gl": "^2.27.1",
+    "react-icons": "^5.0.1",
+    "react-loading": "^2.0.3",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.4.3",
+    "react-scroll-parallax": "^3.4.5",
+    "react-toastify": "^10.0.4",
+    "react-typed": "^2.0.12",
+    "react-webcam": "^7.2.0",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}

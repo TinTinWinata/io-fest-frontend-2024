@@ -1,0 +1,22 @@
+.globe__background-gradient {
+  background: rgb(21,24,90);
+background: radial-gradient(circle, rgba(21,24,90,1) 0%, rgba(0,0,0,0.41430339225533963) 100%);
+}
+
+.world canvas {
+  z-index: 10;
+  position: relative;
+}
+
+.world .marker {
+  pointer-events: auto;
+  color: rgb(255, 255, 255);
+  cursor: none;
+  padding-bottom: 30px;
+  z-index: 20 !important;
+  transition: all 0.5s ease;
+}
+
+.world .marker:hover{
+  padding-bottom: 20px;
+}
